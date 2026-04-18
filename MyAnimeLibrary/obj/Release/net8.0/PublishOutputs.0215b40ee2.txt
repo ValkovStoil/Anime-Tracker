@@ -1,0 +1,12 @@
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\MyAnimeLibrary.exe
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\appsettings.json
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\MyAnimeLibrary.dll
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\MyAnimeLibrary.deps.json
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\MyAnimeLibrary.runtimeconfig.json
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\MyAnimeLibrary.pdb
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Programing\MyAnimeLibrary\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

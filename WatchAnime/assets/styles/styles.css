@@ -1,0 +1,283 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: rgb(66, 246, 255);
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  word-wrap: break-word;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+.wraper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container-div {
+  width: 100%;
+  display: flex;
+  background-color:blue;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 50px;
+}
+
+.header-title h1 {
+  font-size: 30px;
+  margin: 10px 0px 10px 0px;
+}
+
+.header-button-div {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+}
+
+.header-button-div a {
+  align-self: center;
+}
+
+.add-button {
+  width: 100%;
+  height: 80%;
+  align-self: center;
+  font-size: 30px;
+  color: rgb(66, 246, 255);
+  background: blue;
+  border-color: rgb(114, 5, 114);
+  border-radius: 10px;
+}
+
+.add-button:hover{
+  background-color: rgb(114, 5, 114);
+}
+
+.main-container {
+  padding: 70px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 85%;
+}
+
+.react-render-div {
+  display: flex;
+  height: 60%;
+}   
+
+.anime-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  margin: 0px 10px 10px 10px;
+  max-height: 500px;
+  max-width: 230px;
+  background-color: rgb(114, 5, 114);
+}
+
+.name-redirect {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.name-redirect a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.name-redirect h1 {
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  color: rgb(66, 246, 255);
+}
+
+.img-redirect {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.img-redirect a {
+  width: 95%;
+}
+
+.img-redirect img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.indicator {
+  margin: 0px 70px 0px 0px;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #f70505;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.crud-buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin: 10px 0px 0px 0px;
+}
+
+.button-wraper{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 1;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #39c;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px 5px 5px 0px;
+}
+
+#edit-btn:hover {
+  background-color: rgb(9, 243, 9);
+}
+
+#delete-btn:hover {
+  background-color: rgb(255, 20, 20);
+}
+
+.hide-show-form{
+  display: none;
+  position: fixed;
+  z-index: 2;
+  width: 25%;
+  height: 25%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -9em;
+  margin-left: -5em;
+}
+
+.background-unclickable{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 245, 247, 0.6);
+}
+
+.delete-container{
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  margin: 10px 0px 0px 0px;
+}
+
+.delete-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: rgb(66, 246, 255);
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.btn-delete-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-delete-container button{
+  display: inline-block;
+  line-height: 1;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: #39c;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px 5px 5px 0px;
+}
+
+.confirm-delete:hover{
+  background-color: rgb(255, 20, 20);
+}
+
+.cancel-delete:hover{
+background-color: rgb(9, 243, 9);
+}
+
+
+
+
+
+
+
+
+

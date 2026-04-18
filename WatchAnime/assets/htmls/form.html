@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style_form.css" media="all">
+    <title>Form</title>
+</head>
+
+<body class="body">
+    <div class="form" id="container">
+
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+<script type="text/babel" src="../scripts/FormComponent.js"></script>
+<script type="text/babel" src="../scripts/ButtonComponent.js"></script>
+
+
+<script type="text/babel">
+    ReactDOM.render(<FormComponent endPointType="POST" />, document.getElementById('container'));
+</script>
+
+</html>

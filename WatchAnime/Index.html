@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style_form.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"></script>
+
+    <title>Watch Anime</title>
+</head>
+
+
+<body>
+    <div class="background-unclickable" id="bguc">>
+        <div class="hide-show-form" id="hsf"></div>
+    </div>
+    <div class="wraper">
+        <header class="sticky">
+            <div class="container-div">
+                <div class="header-title">
+                    <h1>My Anime's to Watch</h1>
+                </div>
+                <div class="header-button-div">
+                    <a href="assets/htmls/form.html"><button class="add-button">New</button></a>
+                </div>
+            </div>
+        </header>
+        <main id="main-data">
+        </main>
+        <footer>
+            <input type="file" id="myfile" name="myfile" style="display: none;">
+        </footer>
+    </div>
+</body>
+
+<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+<script type="text/babel" src="./assets/scripts/AnimeItem.js"></script>
+<script type="text/babel" src="./assets/scripts/AnimeListedItems.js"></script>
+<script type="text/babel" src="./assets/scripts/ButtonComponent.js"></script>
+<script type="text/babel" src="./assets/scripts/FormComponent.js"></script>
+<script type="text/babel" src="./assets/scripts/FormDeleteComponent.js"></script>
+
+
+
+
+<script type="text/babel">
+    ReactDOM.render(<AnimeListedItems />, document.getElementById('main-data'));
+</script>
+
+</html>
